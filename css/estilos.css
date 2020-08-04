@@ -16,19 +16,19 @@ body {
      background-color: #FFF;
      /* Fuente para el texto */
      text-align: center;
-     color: #000;
+     color: black;
      font-family: "Times New Roman", Times, serif;
 }
 /* Background para ancho máximo de la pantalla física */
 @media only screen and (max-device-width: 767px) {
 body {
-     color: #FFF;
+     color: yellow;
  }
 }
 /* Background para ancho máximo del navegador */
 @media only screen and (max-width: 767px) {
 body {
-     color: #FFF;
+     color: pink;
  }
 }
 
