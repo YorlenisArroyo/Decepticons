@@ -6,12 +6,13 @@ body{
   .topnav {
     background-color: black;
     overflow: hidden;
+	  float: right;
   }
 
   /* Style the links inside the navigation bar */
   .topnav a {
 
-    float: right;
+    float: left;
     display: block;
     color: white;
     text-align: center;
