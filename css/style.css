@@ -11,7 +11,8 @@ body{
   /* Style the links inside the navigation bar */
   .topnav a {
     position: absolute;
-    left: 50%;
+    top: 20;
+    left: 10%;
     /*float: left;*/
     display: block;
     color: white;
