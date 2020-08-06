@@ -10,8 +10,7 @@ body{
 
   /* Style the links inside the navigation bar */
   .topnav a {
-    position: right;
-    display: block;
+    flow: left;
     color: white;
     text-align: center;
     padding: 14px 16px;
