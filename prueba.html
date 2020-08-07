@@ -28,7 +28,11 @@
     position: absolute;
     top: 0;
     left: 0;
-    display: flex;  
+    display: flex;
+     
+    animation: modal 2s 3s forwards;
+     visibility: hidden;
+     opacity: 0;
 }
 
 .contenido{
@@ -55,7 +59,22 @@
     border-radius: 50%;
     right: 10px;
     cursor: pointer;
+  
+     animation: modal 2s 3s forwards;
+     visibility: hidden;
+     opacity: 0;
 }
+
+      #cerrar: checked + label, #cerrar:checked ~ .modal {
+       display: none;
+      }
+      
+      @keyframes modal{
+      100% {
+        visibility: visible;
+        opacity: 1;
+        }
+      }
 
 
     </style>
