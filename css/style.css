@@ -202,14 +202,14 @@ video {
   left: 70%;
 }
 
-.intro{
-	position: absolute;
-    top:20%;
-    left:10%;
-    width: auto;
-  border: 1px solid green;
-  padding: auto;
-  margin: 10px;
-  background-color: black;
-  border-radius: 20px;
+.resena{
+ position: absolute;
+ top:20%;
+ left:10%;
+ width: auto;
+ border: 1px solid green;
+ padding: auto;
+ margin: 10px;
+ background-color: black;
+ border-radius: 20px;
 }
