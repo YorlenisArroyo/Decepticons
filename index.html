@@ -16,99 +16,29 @@
     
     <!-- Scroll -->
     <script src="js/smooth-scroll.min.js"></script>
-    <script>
-      smoothScroll.init({
-      selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
-      selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
-      speed: 2000, // Integer. How fast to complete the scroll in milliseconds
-      easing: 'easeInOutCubic', // Easing pattern to use
-      offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
-      callback: function ( anchor, toggle ) {} // Function to run after scrolling
-      });
-      
-      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-} 
-    </script>
-    
-  </head>
-  <body>
+   <body>
+    <nav class="navbar">
+    <a href="#" class="navbar-brand"><span>W</span>eb<span>D</span>ev</a>
+<!--     <a href="#" class="navbar-brand"><img src="https://www.dropbox.com/s/zzwcz0xpj95sy7p/logo%20%2810%29.png?raw=1" style="width: 50px; vertical-align: middle;"></a> -->
+    <ul>
+      <li><a href="#html">HTML</a></li>
+      <li><a href="#css">CSS</a></li>
+      <li><a href="#javascript">JavaScript</a></li>
+      <li><a href="#4">4</a></li>
+    </ul>
+    <button class="navbar-toggler">
+      <span></span>
+    </button>
+  </nav>
 
+  <header class="intro"></header>
+  <section id="html" class="container"><h2><i class="fab fa-html5"></i></h2></section>
+  <section id="css" class="container"><h2><i class="fab fa-css3-alt"></i></h2></section>
+  <section id="javascript" class="container"><h2><i class="fab fa-js"></i></h2></section>
+  
+  <section id="4" class="container"><h2><i class="fab fa-js"></i></h2></section>
     
-    <!-- MENÚ -->
-
- <div class="topnav navbar-fixed-top " id="myTopnav">
-   <ul class="nav justify-content-end">
-      <a href="#sec-1" class="active">Home</a>
-      <a href="#sec-2">News</a>
-      <a href="#sec-3">Contact</a>
-      <a href="#sec-4">About</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-      </a>
-   </ul>
-   </div>
-    <!-- FIN MENU -->
-    
-    <input type="checkbox" id="cerrar">
-    <label for="cerrar" id="btn-cerrar">X</label>
-    <div class="modal">
-      <h2> aqui va la landing page</h2>
-      <img src="/static/prueba.jpg">
-      </div>
-    </div>
-    
-    <!-- SECCIÓN 1 -->
-    <div class="container-fluid">
-      <div class="row flex-items-xs-center slider-1 flex-items-xs-middle" id="sec-1" >
-        <div class="row">
-          <div class="col-xs-12"><h1>Bienvenidos a mi sitio web</h1></div>
-          <div class="col-xs-12"><h3>Sección 1</h3></div>
-        </div>
-      </div>
-    </div>
-    <!-- FIN SECCIÓN -->
-
-    <!-- SECCIÓN 2 -->
-    <div class="container-fluid">
-      <div class="row flex-items-xs-center slider-2 flex-items-xs-middle" id="sec-2" >
-        <div class="row">
-          <div class="col-xs-12"><h1>Bienvenidos a mi sitio web</h1></div>
-          <div class="col-xs-12"><h3>Sección 2</h3></div>
-        </div>
-      </div>
-    </div>
-    <!-- FIN SECCIÓN -->
-
-    <!-- SECCIÓN 3 -->
-    <div class="container-fluid">
-      <div class="row flex-items-xs-center slider-3 flex-items-xs-middle" id="sec-3" >
-        <div class="row">
-          <div class="col-xs-12"><h1>Bienvenidos a mi sitio web</h1></div>
-          <div class="col-xs-12"><h3>Sección 3</h3></div>
-        </div>
-      </div>
-    </div>
-    <!-- FIN SECCIÓN -->
-
-    <!-- SECCIÓN 4 -->
-    <div class="container-fluid">
-      <div class="row flex-items-xs-center slider-4 flex-items-xs-middle" id="sec-4" >
-        <div class="row">
-          <div class="col-xs-12"><h1>Bienvenidos a mi sitio web</h1></div>
-          <div class="col-xs-12"><h3>Sección 4</h3></div>
-        </div>
-      </div>
-    </div>
-    <!-- FIN SECCIÓN -->
-    
-    <!-- FOOTER -->
+     <!-- FOOTER -->
     <div class="container-fluid footer">
       <div><h6>Decepticons</a></h6></div>
     </div>
