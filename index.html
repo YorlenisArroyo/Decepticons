@@ -14,11 +14,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     
-    <!-- Scroll -->
+    <!-- barra -->
    <body>
     <nav class="navbar">
     <a href="#" class="navbar-brand"><span>W</span>eb<span>D</span>ev</a>
-<!--     <a href="#" class="navbar-brand"><img src="https://www.dropbox.com/s/zzwcz0xpj95sy7p/logo%20%2810%29.png?raw=1" style="width: 50px; vertical-align: middle;"></a> -->
     <ul>
       <li><a href="#html">HTML</a></li>
       <li><a href="#css">CSS</a></li>
@@ -29,7 +28,8 @@
       <span></span>
     </button>
   </nav>
-
+    
+     <!-- Scroll -->
   <header class="intro"></header>
   <section id="html" class="container"><h2><i class="fab fa-html5"></i></h2></section>
   <section id="css" class="container"><h2><i class="fab fa-css3-alt"></i></h2></section>
@@ -54,23 +54,23 @@
     <script src="bootstrap.min.js"></script>
     <script>
       const navbarToggler = document.querySelector(".navbar-toggler");
-const navbarMenu = document.querySelector(".navbar ul");
-const navbarLinks = document.querySelectorAll(".navbar a");
+      const navbarMenu = document.querySelector(".navbar ul");
+      const navbarLinks = document.querySelectorAll(".navbar a");
 
-navbarToggler.addEventListener("click", navbarTogglerClick);
+      navbarToggler.addEventListener("click", navbarTogglerClick);
 
-function navbarTogglerClick() {
-  navbarToggler.classList.toggle("open-navbar-toggler");
-  navbarMenu.classList.toggle("open");
-}
+      function navbarTogglerClick() {
+        navbarToggler.classList.toggle("open-navbar-toggler");
+        navbarMenu.classList.toggle("open");
+      }
 
-navbarLinks.forEach(elem => elem.addEventListener("click", navbarLinkClick));
+      navbarLinks.forEach(elem => elem.addEventListener("click", navbarLinkClick));
 
-function navbarLinkClick() {
-  if(navbarMenu.classList.contains("open")) {
-    navbarToggler.click();
-  }
-}
+      function navbarLinkClick() {
+        if(navbarMenu.classList.contains("open")) {
+          navbarToggler.click();
+        }
+      }
     </script>
 
   </body>
