@@ -204,10 +204,10 @@ video {
 
 .resena{
  position: absolute;
- top:20%;
- left:10%;
- width: auto;
- border: 1px solid green;
+ top:40%;
+ left:70%;
+ width: 50%;
+ border: 1px solid black;
  padding: auto;
  margin: 10px;
  background-color: black;
