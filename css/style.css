@@ -202,7 +202,7 @@ video {
     border-radius: 0.25rem;
     border: 1px solid rgba(0, 0, 0, 0.125);
     top: 30%;
-    left: 60%;
+    left: 70%;
     width: 60%;
     height: 60%;
 }
@@ -212,4 +212,32 @@ video {
     margin-bottom: 0;
     background-color: #8e8c8c;
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+    .split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+.right {
+  right: 0;
+  background-color: red;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
