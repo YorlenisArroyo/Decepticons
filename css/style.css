@@ -194,30 +194,22 @@ video {
   height: 70%;
 }
 
-.card {
-    position: absolute;
-    display: block;
-    margin-bottom: 0.75rem;
-    background-color: #000;
-    border-radius: 0.25rem;
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    top: 30%;
-    left: 70%;
-    width: 60%;
-    height: 60%;
-}
-
-.card-header {
-    padding: 0.75rem 1.25rem;
-    margin-bottom: 0;
-    background-color: #8e8c8c;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-}
-
 .responsive {
   width: 30%;
   height: auto;
   position: absolute;
   top: 20%;
   left: 70%;
+}
+
+.intro{
+	position: absolute;
+    top:20%;
+    left:10%;
+    width: auto;
+  border: 1px solid green;
+  padding: auto;
+  margin: 10px;
+  background-color: black;
+  border-radius: 20px;
 }
