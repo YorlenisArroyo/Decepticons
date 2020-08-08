@@ -180,12 +180,15 @@ body {
     /* transform: translateY(-3px) scale(0.75) rotate(-45deg); */
   }
 }
-
-
-
 .footer{
 	background: #444;
 	color:#fff;
 	text-align: center;
 	padding: 10px;
+}
+video {
+  position: absolute;
+  top: 5%;
+  width: 60%;
+  height: 50%;
 }
