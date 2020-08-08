@@ -216,7 +216,7 @@ video {
 
 .responsive {
   width: 50%;
-  height: auto;
+  height: 50%;
   position: absolute;
   top: 20%;
   left: 70%;
