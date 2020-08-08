@@ -206,7 +206,8 @@ video {
  position: absolute;
  top:40%;
  left:70%;
- width: 10%;
+ width: 30%;
+ height: 80%;
  border: 1px solid black;
  padding: auto;
  margin: 10px;
