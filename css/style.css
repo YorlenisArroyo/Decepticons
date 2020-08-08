@@ -214,6 +214,7 @@ video {
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
-img.titulo {
-  float: right;
+.responsive {
+  width: 100%;
+  height: auto;
 }
