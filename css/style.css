@@ -188,7 +188,8 @@ body {
 }
 video {
   position: absolute;
-  top: 50%;
+  top: 20%;
+  left:10%;
   width: 60%;
   height: 50%;
 }
