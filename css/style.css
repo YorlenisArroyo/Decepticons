@@ -23,7 +23,8 @@ body {
   color: #333;
 }
 .navbar {
-  background-color:  rgba(248,80,50,1);
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, yellow);
   color: #fff;
   border-bottom: 1px solid rgba(255,255,255,0.2);
   width: 100%;
