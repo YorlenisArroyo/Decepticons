@@ -77,6 +77,8 @@ body {
   position: relative;
   height: 100vh;
   color: #fff;
+  background-size: cover;}
+
 }
 .container h2 {
   position: absolute;
@@ -85,12 +87,9 @@ body {
   transform: translate(-50%, -50%);
   font-size: 20vh;
 }
-#html { background-color: #e34f26;
-  background-size: cover;}
-#css { background-color: #002561; 
-  background-size: cover;}
-#javascript { background-color: #333; 
-  background-size: cover;}
+#html { background-color: #e34f26;}
+#css { background-color: #002561;}
+#javascript { background-color: #333;}
 
 @media (max-width: 991px) {
   .navbar ul {
