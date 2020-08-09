@@ -26,7 +26,7 @@ body {
 }
 .navbar {
   background-color: red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(red, yellow);
+  background-image: linear-gradient(darkred, yellow);
   color: #fff;
   border-bottom: 1px solid rgba(255,255,255,0.2);
   width: 100%;
