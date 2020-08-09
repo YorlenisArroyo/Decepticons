@@ -223,21 +223,16 @@ video {
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 a {
-  color:#009688;
+  color:white;
 }
 
-#l1, #l2{
-  float:left
+#l2{
+  float:right;
 }
 
 .social-icons li {
   font-size: 1.2em;
   padding: 0.5em;
-}
-
-#l1 li{
-  display:list-item;
-  xlist-style:none;
 }
 
 #l2 li{
