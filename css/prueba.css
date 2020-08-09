@@ -239,7 +239,7 @@ a {
 
 #l2{
   margin-left:50px;
-  margin-top:5px;
+  margin-top:10px;
 }
 
 div.tooltip{
@@ -250,7 +250,7 @@ div.tooltip{
   font: courier;
   float:left;
   position: absolute;
-  top: 50px;
+  top: 100px;
   left: 100px;
   
 }
