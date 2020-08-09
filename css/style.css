@@ -142,7 +142,6 @@ body {
     padding: 0;
   }
   .navbar .navbar-toggler {
-    display: block;
     position: absolute;
     height: 40px;
     top: 5px;
