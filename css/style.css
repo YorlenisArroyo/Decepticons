@@ -102,9 +102,10 @@ body {
   transform: translate(-50%, -50%);
   font-size: 20vh;
 }
-#html { background-color: #e34f26; }
-#css { background-color: #002561; }
-#javascript { background-color: #333; }
+#equipo { background-color: #e34f26; }
+#estadisticas { background-color: #002561; }
+#noticias { background-color: #333; }
+#contacto { background-color: red; }
 
 @media (max-width: 991px) {
  
