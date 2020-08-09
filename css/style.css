@@ -203,6 +203,7 @@ video {
   left:2%;
   width: 65%;
   height: auto;
+  box-shadow: 0 0 20px #4f9;
 }
 
 .responsive {
@@ -211,6 +212,7 @@ video {
   position:absolute;
   top:20%;
   left: 70%;
+  box-shadow: 0 0 20px #4f9;
 }
 
 #resena{
