@@ -1,6 +1,6 @@
 /* Header/Logo Title */
 .header {
-  padding: 0.9px;
+padding: 0.9px;
 text-align: center;
 background: #FF5733;
 color: white;
@@ -23,7 +23,7 @@ body {
   color: #333;
 }
 .navbar {
-  background-color:  #ff3f00;
+  background-color:  rgba(248,80,50,1);
   color: #fff;
   border-bottom: 1px solid rgba(255,255,255,0.2);
   width: 100%;
