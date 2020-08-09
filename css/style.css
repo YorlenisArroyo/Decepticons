@@ -46,7 +46,7 @@ body {
 .navbar a.navbar-brand {
   float: left;
   position:absolute;
-  top:5%;
+  top:1%;
   height: inherit;
   line-height: inherit;
   padding: 0 30px;
