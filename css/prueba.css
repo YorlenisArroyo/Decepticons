@@ -239,7 +239,7 @@ a {
 
 #l2{
   margin-left:50px;
-  margin-top:100px;
+  margin-top:1px;
 }
 
 div.tooltip{
@@ -256,12 +256,12 @@ div.tooltip{
 }
 div.tooltip:before {
   position:absolute;
-  bottom:10px;
+  bottom:34px;
   content:"";
-  border-bottom: 10px solid #009688;
-  border-top: 10px solid transparent ;
-  border-right: 10px solid transparent ;
-  border-left: 10px solid transparent ;
+  border-bottom: 1px solid #009688;
+  border-top: 1px solid transparent ;
+  border-right: 1px solid transparent ;
+  border-left: 1px solid transparent ;
 }
 
 
