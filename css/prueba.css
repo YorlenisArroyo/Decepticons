@@ -1,12 +1,11 @@
 /* Header/Logo Title */
 .header {
-  padding: 0.9px;
+padding: 0.9px;
 text-align: center;
 background: #330033;
 color: white;
 font-size: 10px;
 position: fixed;
-z-index: 10;
 width: 100%;
 }
 * {
