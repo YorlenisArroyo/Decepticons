@@ -113,10 +113,6 @@ body {
 }
 
 @media (max-width: 767) {
- .section{
-	  width: auto;
-	  height: 100vh;
-	}
   .navbar {
     padding: 0;
   }
