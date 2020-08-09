@@ -253,7 +253,7 @@ div.tooltip{
   float:left;
   position: absolute;
   top: 100px;
-  left: end;
+  left: 100%;
   
 }
 div.tooltip:before {
