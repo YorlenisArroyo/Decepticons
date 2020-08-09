@@ -109,7 +109,7 @@ body {
   }
 }
 
-@media (max-width: 867px) {
+@media (max-width: 1067px) {
   .navbar {
     padding: 0;
   }
