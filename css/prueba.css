@@ -218,13 +218,15 @@ video {
  border-radius: 20px;
 }
 
+
+
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 a {
-  color: white;
+  color:#009688;
 }
 
-#l2{
+#l1, #l2{
   float:left
 }
 
@@ -233,37 +235,41 @@ a {
   padding: 0.5em;
 }
 
+#l1 li{
+  display:list-item;
+  xlist-style:none;
+}
+
 #l2 li{
   display: inline;
 }
 
 #l2{
-  margin-left:100px;
-  margin-top:0px;
-  position: fixed;
-  z-index: 100;
+  margin-left:50px;
+  margin-top:100px;
 }
 
 div.tooltip{
-  background: grey;
+  background: #009688;
   padding: .5em;
   border-radio: 4;
   color: white;
   font: courier;
-  float:right;
+  float:left;
   position: absolute;
-  top: 1px;
-  left: 100px;
+  top: 150px;
+  left: 220px;
   
 }
 div.tooltip:before {
   position:absolute;
   bottom:34px;
   content:"";
-  border-bottom: 10px solid white;
+  border-bottom: 10px solid #009688;
   border-top: 10px solid transparent ;
   border-right: 10px solid transparent ;
   border-left: 10px solid transparent ;
 }
+
 
 
