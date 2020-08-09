@@ -224,18 +224,13 @@ a {
   color:#009688;
 }
 
-#l1, #l2{
+#l2{
   float:left
 }
 
 .social-icons li {
   font-size: 1.2em;
   padding: 0.5em;
-}
-
-#l1 li{
-  display:list-item;
-  xlist-style:none;
 }
 
 #l2 li{
@@ -261,7 +256,7 @@ div.tooltip{
 }
 div.tooltip:before {
   position:absolute;
-  bottom:34px;
+  bottom:10px;
   content:"";
   border-bottom: 10px solid #009688;
   border-top: 10px solid transparent ;
