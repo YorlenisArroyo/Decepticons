@@ -111,7 +111,7 @@ body {
 
 @media (max-width: 767px) {
   .navbar {
-    width: 100vh;  
+    width: auto;  
     padding: 0;
   }
   .navbar ul {
