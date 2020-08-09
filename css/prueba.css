@@ -240,8 +240,8 @@ a {
 }
 
 #l2{
-  left:100%;
-  top:2%;
+  left:100;
+  top:2;
   position: fixed;
   z-index:50;
 }
