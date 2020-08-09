@@ -254,7 +254,7 @@ div.tooltip{
   font: courier;
   float:left;
   position: absolute;
-  top: 150px;
+  top: 0px;
   left: 620px;
   
 }
