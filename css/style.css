@@ -109,8 +109,9 @@ body {
   }
 }
 
-@media (max-width: 1067px) {
+@media (max-width: 767px) {
   .navbar {
+    width: 100%;  
     padding: 0;
   }
   .navbar ul {
