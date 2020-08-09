@@ -260,7 +260,7 @@ div.tooltip:before {
   position:absolute;
   bottom:34px;
   content:"";
-  border-bottom: 10px solid #009688;
+  border-bottom: 10px solid white;
   border-top: 10px solid transparent ;
   border-right: 10px solid transparent ;
   border-left: 10px solid transparent ;
