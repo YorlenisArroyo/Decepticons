@@ -231,8 +231,8 @@ a {
 }
 
 .social-icons li {
-  font-size: 1.2em;
-  padding: 0.5em;
+  font-size: 1.2px;
+  padding: 0.5px;
 }
 
 #l2 li{
@@ -248,7 +248,7 @@ a {
 
 div.tooltip{
   background: #009688;
-  padding: .5em;
+  padding: .5px;
   border-radio: 4;
   color: white;
   font: courier;
@@ -260,7 +260,7 @@ div.tooltip{
 }
 div.tooltip:before {
   position:absolute;
-  bottom:34px;
+  bottom:10px;
   content:"";
   border-bottom: 10px solid #009688;
   border-top: 10px solid transparent ;
