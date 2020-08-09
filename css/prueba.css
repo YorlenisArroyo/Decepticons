@@ -34,7 +34,6 @@ body {
   position: fixed;
   top:4%;
   left: 0;
-  z-index: 10;
 }
 .navbar a {
   text-decoration: none;
