@@ -250,7 +250,7 @@ div.tooltip{
   border-radio: 4;
   color: white;
   font: courier;
-  float:left;
+  float:right;
   position: absolute;
   top: 1px;
   left: 100px;
