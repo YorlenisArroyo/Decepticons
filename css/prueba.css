@@ -227,7 +227,7 @@ a {
 }
 
 #l2{
-  float:right;
+  float:left;
 }
 
 .social-icons li {
@@ -240,7 +240,7 @@ a {
 }
 
 #l2{
-  left:0px;
+  left:50px;
   top:2.5px;
   position: fixed;
   z-index:50;
