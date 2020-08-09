@@ -218,7 +218,7 @@ video {
  top:30%;
  left:69%;
  width: 28%;
- height: 60%;
+ height: auto;
  border: 1px solid black;
  margin: 10px;
  background-color: black;
