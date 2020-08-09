@@ -227,7 +227,7 @@ a {
 }
 
 #l2{
-  float:left;
+  float:right;
 }
 
 .social-icons li {
@@ -252,7 +252,7 @@ div.tooltip{
   border-radio: 4;
   color: white;
   font: courier;
-  float:left;
+  float:right;
   position: absolute;
   top: 0px;
   left: 0px;
