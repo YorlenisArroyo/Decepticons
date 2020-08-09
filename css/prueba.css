@@ -240,7 +240,7 @@ a {
 }
 
 #l2{
-  left:50px;
+  left:0px;
   top:2.5px;
   position: fixed;
   z-index:50;
@@ -255,7 +255,7 @@ div.tooltip{
   float:left;
   position: absolute;
   top: 0px;
-  left: 620px;
+  left: 0px;
   
 }
 div.tooltip:before {
