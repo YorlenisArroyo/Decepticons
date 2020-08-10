@@ -111,6 +111,7 @@ body {
 .video iframe {
   float:left;
  width: 70%;
+ height: auto;
   margin-top:150px;
   margin-right: 5px;
 }
