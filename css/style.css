@@ -201,7 +201,7 @@ video {
   position: absolute;
   top: 23.5%;
   left:2%;
-  width: auto;
+  max-width: 65%;
   height: auto;
   box-shadow: 0 0 20px #515dfe;
 }
