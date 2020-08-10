@@ -109,11 +109,11 @@ body {
 #contacto { background-color: red; }
 
 .video iframe {
-  float:left;
+ float:left;
  width: 70%;
  height: 100%;
-  margin-top:150px;
-  margin-right: 5px;
+ margin-top:150px;
+ margin-right: 5px;
 }
 .resena {
   background-color:black;
@@ -129,7 +129,6 @@ body {
 @media only screen and (max-width: 620px) {
     .video iframe{
     width:100%;
-    height: auto;
   }
  
   .resena {
