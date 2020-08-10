@@ -191,6 +191,9 @@ body {
     transform: translateY(-3px) rotate(-45deg);
     /* transform: translateY(-3px) scale(0.75) rotate(-45deg); */
   }
+.video video, .resena {
+    width:100%;
+  }
 }
 .footer{
 	background: #444;
@@ -199,6 +202,22 @@ body {
 	padding: 10px;
 }
 
+.video video {
+  float:left;
+ width: 70%;
+  margin-top:50px;
+
+}
+.resena {
+  background-color:black;
+  float:left;
+  width:29%;
+  padding:15px;
+  margin-top:50px;
+  margin-left: 5px;
+  text-align:center;
+
+}
 
 /*botones sociales*/
 
