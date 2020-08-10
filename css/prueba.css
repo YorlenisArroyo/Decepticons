@@ -108,7 +108,22 @@ body {
 #noticias { background-color: #333; }
 #contacto { background-color: red; }
 
+.video iframe {
+  float:left;
+ width: 70%;
+  margin-top:150px;
+  margin-right: 5px;
+}
+.resena {
+  background-color:black;
+  float:left;
+  width:29%;
+  padding:15px;
+  margin-top:150px;
+  margin-left: 5px;
+  text-align:center;
 
+}
 
 @media only screen and (max-width: 620px) {
     .video iframe{
@@ -203,22 +218,7 @@ body {
 	padding: 10px;
 }
 
-.video iframe {
-  float:left;
- width: 70%;
-  margin-top:150px;
-  margin-right: 5px;
-}
-.resena {
-  background-color:black;
-  float:left;
-  width:29%;
-  padding:15px;
-  margin-top:150px;
-  margin-left: 5px;
-  text-align:center;
 
-}
 
 /*botones sociales*/
 
