@@ -203,7 +203,7 @@ video {
   left:2%;
   width: 65%;
   height: auto;
-  box-shadow: 0 0 20px #4f9;
+  box-shadow: 0 0 20px #515dfe;
 }
 
 .responsive {
@@ -224,7 +224,7 @@ video {
  margin: 10px;
  background-color: black;
  border-radius: 20px;
- box-shadow: 0 0 20px #4f9;
+ box-shadow: 0 0 20px #515dfe;
 }
 
 /*botones sociales*/
