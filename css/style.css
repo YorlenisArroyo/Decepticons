@@ -214,18 +214,13 @@ video {
   left: 67%;
 }
 
-#resena{
- position: absolute;
- top:35%;
- left:69%;
- width: 28%;
- height: auto;
- border: 1px solid black;
- margin: 10px;
- background-color: black;
- border-radius: 20px;
- box-shadow: 0 0 20px #515dfe;
-}
+.right {
+  background-color:#e5e5e5;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
 
 /*botones sociales*/
 
