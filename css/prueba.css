@@ -1,13 +1,16 @@
+
 /* Header/Logo Title */
 .header {
 padding: 0.9px;
 text-align: center;
-background: #330033;
+background-color: red; /* For browsers that do not support gradients */
+background-image: linear-gradient(black,red);
 color: white;
 font-size: 10px;
 position: fixed;
-z-index:10;
+z-index: 5;
 width: 100%;
+height: 6%;
 }
 * {
   padding: 0;
@@ -23,7 +26,8 @@ body {
   color: #333;
 }
 .navbar {
-  background-color:  #4a235a;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(darkred, orange);
   color: #fff;
   border-bottom: 1px solid rgba(255,255,255,0.2);
   width: 100%;
@@ -42,6 +46,8 @@ body {
 }
 .navbar a.navbar-brand {
   float: left;
+  position:absolute;
+  top:1%;
   height: inherit;
   line-height: inherit;
   padding: 0 30px;
@@ -81,6 +87,7 @@ body {
   width: 100%;
   height: 100vh;
   background-color: white;
+  background: url("https://i.pinimg.com/originals/86/66/85/866685bdd4bbc516ec1a13c956d4d7bf.jpg") no-repeat center center;
   background-size: cover;
 }
 .container {
@@ -97,12 +104,15 @@ body {
   transform: translate(-50%, -50%);
   font-size: 20vh;
 }
-#html { background-color: #e34f26; }
-#css { background-color: #002561; }
-#javascript { background-color: #333; }
+#equipo { background-color: #e34f26; }
+#estadisticas { background-color: #002561; }
+#noticias { background-color: #333; }
+#contacto { background-color: red; }
 
 @media (max-width: 991px) {
- 
+ .right {
+    width:100%;
+  }
   .navbar ul {
     padding: 0 10px;
   }
@@ -113,6 +123,14 @@ body {
 }
 
 @media (max-width: 767px) {
+.right {
+    width:100%;
+  }
+video {
+    width:100%;
+    height:100%;
+    position: absolute;
+  }
   .navbar {
     padding: 0;
   }
@@ -137,8 +155,8 @@ body {
     padding: 0;
   }
   .navbar .navbar-toggler {
-    display: block;
     position: absolute;
+    display: block;
     height: 40px;
     top: 5px;
     right: 20px;
@@ -192,81 +210,29 @@ body {
 }
 video {
   position: absolute;
-  top: 20%;
-  left:0;
-  width: 70%;
-  height: 70%;
+  top: 23.5%;
+  left:2%;
+  width: 65%;
+  box-shadow: 0 0 20px #515dfe;
 }
 
 .responsive {
-  width: 30%;
+  width: 32%;
   height: auto;
-  position: absolute;
-  top: 20%;
-  left: 70%;
-}
-
-#resena{
- position: absolute;
- top:30%;
- left:69%;
- width: 28%;
- height: 60%;
- border: 1px solid black;
- margin: 10px;
- background-color: black;
- border-radius: 20px;
-}
-
-
-
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
-
-a {
-  color:white;
-}
-
-#l2{
-  float:left;
-}
-
-.social-icons li {
-  font-size: 1.2em;
-  padding: 0.5em;
-}
-
-#l2 li{
-  display: inline;
-}
-
-#l2{
-  left:100;
-  top:2;
-  position: fixed;
-  z-index:50;
-}
-
-div.tooltip{
-  background: #009688;
-  padding: .5em;
-  border-radio: 4;
-  color: white;
-  font: courier;
-  float:left;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  
-}
-div.tooltip:before {
   position:absolute;
-  bottom:34px;
-  content:"";
-  border-bottom: 10px solid #009688;
-  border-top: 10px solid transparent ;
-  border-right: 10px solid transparent ;
-  border-left: 10px solid transparent ;
+  top:20%;
+  left: 67%;
 }
 
+.right {
+  background-color:#e5e5e5;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
 
+/*botones sociales*/
+
+/*fin de botones sociales*/
 
