@@ -20,12 +20,13 @@ html {
   scroll-behavior: smooth;
 }
 @font-face {
-    font-family: 'transformersregular';
-    src: url('transformers_movie.woff2') format('woff2'),
-         url('transformers_movie.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+    font-family: 'TransformersMovie';
+    src: url('fonts/TransformersMovie.eot');
+    src: url('fonts/TransformersMovie.eot') format('embedded-opentype'),
+         url('fonts/TransformersMovie.woff2') format('woff2'),
+         url('fonts/TransformersMovie.woff') format('woff'),
+         url('fonts/TransformersMovie.ttf') format('truetype'),
+         url('fonts/TransformersMovie.svg#TransformersMovie') format('svg');
 }
 body {
   font-family: transformersregular;
