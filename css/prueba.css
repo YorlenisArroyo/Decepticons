@@ -111,8 +111,18 @@ body {
 
 
 @media only screen and (max-width: 620px) {
-    .intro .video iframe, .intro .resena {
+    .video iframe{
     width:100%;
+    height: auto;
+  }
+ 
+  .resena {
+    width:100%;
+    height:100%;
+  padding:15px;
+  margin-top:2px;
+  margin-left: 5px;
+  text-align:center;
   }
   .navbar {
     padding: 0;
