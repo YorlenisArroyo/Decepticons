@@ -191,7 +191,7 @@ body {
     transform: translateY(-3px) rotate(-45deg);
     /* transform: translateY(-3px) scale(0.75) rotate(-45deg); */
   }
-.video video, .resena {
+.video iframe, .resena {
     width:100%;
   }
 }
@@ -202,7 +202,7 @@ body {
 	padding: 10px;
 }
 
-.video video {
+.video iframe {
   float:left;
  width: 70%;
   margin-top:150px;
