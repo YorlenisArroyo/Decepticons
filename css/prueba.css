@@ -129,11 +129,11 @@ body {
 
 @media only screen and (max-width: 620px) {
     .video video{
-    width:100%;
+    width:99%;
   }
  
   .resena {
-  width:90%;
+  width:99%;
   height:50%;
   padding:15px;
   margin-top:2px;
