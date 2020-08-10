@@ -108,7 +108,7 @@ body {
 #noticias { background-color: #333; }
 #contacto { background-color: red; }
 
-.video iframe {
+.video video {
  float:left;
  width: 70%;
  margin-top:150px;
@@ -126,7 +126,7 @@ body {
 }
 
 @media only screen and (max-width: 620px) {
-    .video iframe{
+    .video video{
     width:100%;
   }
  
