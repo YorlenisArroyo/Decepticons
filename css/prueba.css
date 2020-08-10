@@ -119,8 +119,10 @@ body {
   }
 }
 
-@media (max-width: 767px) {
-
+@media (max-width: 620px) {
+    .video iframe, .resena {
+    width:100%;
+  }
   .navbar {
     padding: 0;
   }
@@ -192,12 +194,7 @@ body {
     /* transform: translateY(-3px) scale(0.75) rotate(-45deg); */
   }
 }
-@media only screen and (max-width:620px) {
-  /* For mobile phones: */
-   .video iframe, .resena {
-    width:100%;
-  }
-}
+
 .footer{
 	background: #444;
 	color:#fff;
