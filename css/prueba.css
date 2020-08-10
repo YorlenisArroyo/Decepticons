@@ -110,9 +110,11 @@ body {
 
 .video video {
  float:left;
- width: 70%;
+ width: 67%;
  margin-top:150px;
  margin-right: 5px;
+ box-shadow: 0 0 20px #515dfe;
+
 }
 .resena {
   background-color:black;
