@@ -203,13 +203,13 @@ body {
 	padding: 10px;
 }
 
-.intro .video iframe {
+.video iframe {
   float:left;
  width: 70%;
   margin-top:150px;
   margin-right: 5px;
 }
-.intro .resena {
+.resena {
   background-color:black;
   float:left;
   width:29%;
