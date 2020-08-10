@@ -110,9 +110,6 @@ body {
 #contacto { background-color: red; }
 
 @media (max-width: 991px) {
- .right {
-    width:100%;
-  }
   .navbar ul {
     padding: 0 10px;
   }
@@ -123,14 +120,7 @@ body {
 }
 
 @media (max-width: 767px) {
-.right {
-    width:100%;
-  }
-video {
-    width:100%;
-    height:100%;
-    position: absolute;
-  }
+
   .navbar {
     padding: 0;
   }
@@ -208,29 +198,7 @@ video {
 	text-align: center;
 	padding: 10px;
 }
-video {
-  position: absolute;
-  top: 23.5%;
-  left:2%;
-  width: 65%;
-  box-shadow: 0 0 20px #515dfe;
-}
 
-.responsive {
-  width: 32%;
-  height: auto;
-  position:absolute;
-  top:20%;
-  left: 67%;
-}
-
-.right {
-  background-color:#e5e5e5;
-  float:left;
-  width:20%;
-  padding:15px;
-  margin-top:7px;
-  text-align:center;
 
 /*botones sociales*/
 
