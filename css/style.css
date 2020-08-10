@@ -199,7 +199,7 @@ body {
 }
 video {
   position: absolute;
-  top: 20%;
+  top: 25%;
   left:2%;
   width: 65%;
   height: auto;
@@ -207,7 +207,7 @@ video {
 }
 
 .responsive {
-  max-width: 30%;
+  width: 30%;
   height: auto;
   position:absolute;
   top:20%;
