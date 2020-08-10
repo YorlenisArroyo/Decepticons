@@ -122,7 +122,10 @@ body {
 }
 
 @media (max-width: 767px) {
-	.right {
+.right {
+    width:100%;
+  }
+.video {
     width:100%;
   }
   .navbar {
