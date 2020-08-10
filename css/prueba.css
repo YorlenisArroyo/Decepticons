@@ -111,7 +111,7 @@ body {
 
 
 @media only screen and (max-width: 620px) {
-    .video iframe, .resena {
+    .intro .video iframe, .intro .resena {
     width:100%;
   }
   .navbar {
@@ -193,13 +193,13 @@ body {
 	padding: 10px;
 }
 
-.video iframe {
+.intro .video iframe {
   float:left;
  width: 70%;
   margin-top:150px;
   margin-right: 5px;
 }
-.resena {
+.intro .resena {
   background-color:black;
   float:left;
   width:29%;
