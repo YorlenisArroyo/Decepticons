@@ -191,7 +191,10 @@ body {
     transform: translateY(-3px) rotate(-45deg);
     /* transform: translateY(-3px) scale(0.75) rotate(-45deg); */
   }
-.video iframe, .resena {
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+   .video iframe, .resena {
     width:100%;
   }
 }
