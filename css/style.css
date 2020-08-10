@@ -207,7 +207,7 @@ video {
 }
 
 .responsive {
-  max-width: 50%;
+  max-width: 30%;
   height: auto;
   position:absolute;
   top:20%;
@@ -216,7 +216,7 @@ video {
 
 #resena{
  position: absolute;
- top:30%;
+ top:35%;
  left:69%;
  width: 28%;
  height: auto;
