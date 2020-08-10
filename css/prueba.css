@@ -19,8 +19,16 @@ height: 6%;
 html {
   scroll-behavior: smooth;
 }
+@font-face {
+    font-family: 'transformersregular';
+    src: url('transformers_movie.woff2') format('woff2'),
+         url('transformers_movie.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'transformersregular';
   background-color: #fff;
   color: #333;
 }
