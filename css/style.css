@@ -102,7 +102,7 @@ body {
   transform: translate(-50%, -50%);
   font-size: 20vh;
 }
-#equipo { background-color: #e34f26; }
+#equipo { background-color: white; }
 #estadisticas { background-color: #002561; }
 #noticias { background-color: #333; }
 #contacto { background-color: red; }
