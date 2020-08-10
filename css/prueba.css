@@ -29,7 +29,7 @@ html {
          url('fonts/TransformersMovie.svg#TransformersMovie') format('svg');
 }
 body {
-  font-family: transformersregular;
+  font-family: 'TransformersMovie';
   background-color: #fff;
   color: #333;
 }
