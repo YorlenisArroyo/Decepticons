@@ -124,8 +124,8 @@ body {
 
 /* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
+  -ms-flex: %; /* IE10 */
+  flex: 5%;
   max-width: 25%;
   padding: 0 4px;
 }
