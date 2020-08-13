@@ -249,6 +249,12 @@ tr:nth-child(odd){background-color: #07145a}
 .asistencias tr:nth-child(even){background-color: white}
 .asistencias tr:nth-child(odd){background-color: red}
 
+.scrollspy-example {
+    position: relative;
+    height: 200px;
+    margin-top: .5rem;
+    overflow: auto;
+}
 /*fin de seccion*/
 #noticias { background-color: #333; }
 #contacto { background-color: red; }
