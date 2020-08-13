@@ -203,22 +203,28 @@ tr:nth-child(odd){   font-size:12px;
   width: 100%;
   border: 3px solid #07145a ;
   float:left;
+
 }
 
 .goles th  {
   text-align: center;
   padding: 8px;
   background-color: #42075c;
+  font-size:12px;
 
 }
 .goles td {
   text-align: center;
   padding: 8px;
+  font-size:12px;
+
 }
 
 .goles tr:nth-child(even){  text-align: center;
- background-color: rgba(170, 174, 193, .5)}
-.goles tr:nth-child(odd){  text-align: center;
+ background-color: rgba(170, 174, 193, .5);  font-size:12px;
+}
+.goles tr:nth-child(odd){   font-size:12px;
+ text-align: center;
  background-color: #07145a}
 
 .asistencias {
