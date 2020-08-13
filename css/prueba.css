@@ -25,6 +25,7 @@ body {
   font-family: 'TransformersMovie';
   background-color: #fff;
   color: #333;
+  justify-content:center;
 }
 
 /*barra de navegacion*/
@@ -88,7 +89,6 @@ body {
 /*inicio*/
 .intro {
   width: 100%;
-  justify-content:center;
   height: 100vh;
   background-color: white;
   background: url("https://i.pinimg.com/originals/86/66/85/866685bdd4bbc516ec1a13c956d4d7bf.jpg") no-repeat center center;
