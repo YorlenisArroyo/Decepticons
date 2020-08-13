@@ -257,7 +257,7 @@ tr:nth-child(odd){  text-align: center;
     position: relative;
     height: 400px;
     margin-top: .5rem;
-    overflow: scroll;
+    overflow-y: scroll;
     /* cambiar el estilo por defecto de la barra de scroll */
     scrollbar-color: yellow #800080;
     scrollbar-width: 10px;
