@@ -169,17 +169,19 @@ body {
 }
 
 .partidos th {
-  text-align: left;
+  text-align: center;
   padding: 8px;
   background-color: #42075c;
 }
 .partidos td {
-  text-align: left;
+  text-align: center;
   padding: 8px;
 }
 
-tr:nth-child(even){background-color: rgba(170, 174, 193, .5)}
-tr:nth-child(odd){background-color: #07145a}
+tr:nth-child(even){  text-align: center;
+background-color: rgba(170, 174, 193, .5)}
+tr:nth-child(odd){  text-align: center;
+ background-color: #07145a}
  
 
 .goles {
@@ -199,18 +201,20 @@ tr:nth-child(odd){background-color: #07145a}
 }
 
 .goles th  {
-  text-align: left;
+  text-align: center;
   padding: 8px;
   background-color: #42075c;
 
 }
 .goles td {
-  text-align: left;
+  text-align: center;
   padding: 8px;
 }
 
-.goles tr:nth-child(even){background-color: rgba(170, 174, 193, .5)}
-.goles tr:nth-child(odd){background-color: #07145a}
+.goles tr:nth-child(even){  text-align: center;
+ background-color: rgba(170, 174, 193, .5)}
+.goles tr:nth-child(odd){  text-align: center;
+ background-color: #07145a}
 
 .asistencias {
   float:left;
@@ -232,20 +236,22 @@ tr:nth-child(odd){background-color: #07145a}
 }
 
 .asistencias th  {
-  text-align: left;
+  text-align: center;
   padding: 5px;
   font-size:12px;
   background-color: #42075c;
 
 }
 .asistencias td {
-  text-align: left;
+  text-align: center;
   padding: 5px;
 
 }
 
-.asistencias tr:nth-child(even){background-color: rgba(170, 174, 193, .5)}
-.asistencias tr:nth-child(odd){background-color: #07145a}
+.asistencias tr:nth-child(even){  text-align: center;
+ background-color: rgba(170, 174, 193, .5)}
+.asistencias tr:nth-child(odd){  text-align: center;
+ background-color: #07145a}
 
 .scrollspy-example {
     position: relative;
