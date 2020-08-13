@@ -152,7 +152,7 @@ body {
 }
 /*fin de seccion*/
 /*inicio de estadisticas*/
-#estadisticas {   background-image: linear-gradient(#C0C0C0, #ff3a00);
+#estadisticas {   background: linear-gradient(45deg, #000000 0%, #d1d1d1 77%, #fefefe 100%);
  }
 .partidos {
   float:left;
