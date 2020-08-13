@@ -233,14 +233,14 @@ tr:nth-child(odd){background-color: #07145a}
 
 .asistencias th  {
   text-align: left;
-  padding: 8px;
+  padding: 5px;
   background-color: blue;
   border: 1px solid black ;
 
 }
 .asistencias td {
   text-align: left;
-  padding: 8px;
+  padding: 5px;
   border: 1px solid black ;
 
 }
