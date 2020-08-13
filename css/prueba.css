@@ -183,7 +183,7 @@ tr:nth-child(odd){background-color: #07145a}
 
 .goles {
   float:left;
-  width:22%;
+  width:22.5%;
   margin-top:6px;
   text-align:center;
   
@@ -215,7 +215,7 @@ tr:nth-child(odd){background-color: #07145a}
 
 .asistencias {
   float:left;
-  width:22%;
+  width:22.5%;
   margin-top:7px;
   text-align:center;
   padding:0 10px;
