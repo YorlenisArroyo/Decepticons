@@ -178,7 +178,6 @@ body {
   text-align: center;
   padding: 8px;
   font-size:12px;
-
 }
 
 tr:nth-child(even){   font-size:12px;
@@ -290,7 +289,7 @@ tr:nth-child(odd){   font-size:12px;
  float:left;
  width: 50%;
  margin-top:150px;
- margin-left: 20%;
+ margin-left: 10%;
  box-shadow: 0 0 20px #515dfe;
 }
 /*resena de inicio*/
