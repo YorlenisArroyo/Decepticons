@@ -194,7 +194,7 @@ tr:nth-child(odd){   font-size:12px;
   width:20%;
   margin-top:10px;
   text-align:center;
-  margin-left:6px;
+  margin-left:10px;
 }
 .goles table {
   border-style: outset;
@@ -232,8 +232,7 @@ tr:nth-child(odd){   font-size:12px;
   width:20%;
   margin-top:10px;
   text-align:center;
-  padding:0 5px;
-  margin-left:6px;
+  margin-left:10px;
 
 }
 .asistencias table {
