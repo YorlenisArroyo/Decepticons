@@ -194,14 +194,14 @@ tr:nth-child(odd){background-color: #07145a}
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
-  border: 3px solid black ;
+  border: 3px solid #07145a ;
   float:left;
 }
 
 .goles th  {
   text-align: left;
   padding: 8px;
-  background-color: blue;
+  background-color: #42075c;
 
 }
 .goles td {
@@ -209,8 +209,8 @@ tr:nth-child(odd){background-color: #07145a}
   padding: 8px;
 }
 
-.goles tr:nth-child(even){background-color: white}
-.goles tr:nth-child(odd){background-color: red}
+.goles tr:nth-child(even){background-color: rgba(170, 174, 193, .5)}
+.goles tr:nth-child(odd){background-color: #07145a}
 
 .asistencias {
   float:left;
@@ -222,7 +222,7 @@ tr:nth-child(odd){background-color: #07145a}
 }
 .asistencias table {
   border-style: outset;
-  border: 3px solid black ;
+  border: 3px solid #07145a ;
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
@@ -235,7 +235,7 @@ tr:nth-child(odd){background-color: #07145a}
   text-align: left;
   padding: 5px;
   text-size:2px;
-  background-color: blue;
+  background-color: #42075c;
 
 }
 .asistencias td {
@@ -244,8 +244,8 @@ tr:nth-child(odd){background-color: #07145a}
 
 }
 
-.asistencias tr:nth-child(even){background-color: white}
-.asistencias tr:nth-child(odd){background-color: red}
+.asistencias tr:nth-child(even){background-color: rgba(170, 174, 193, .5)}
+.asistencias tr:nth-child(odd){background-color: #07145a}
 
 .scrollspy-example {
     position: relative;
