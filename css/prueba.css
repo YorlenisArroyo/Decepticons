@@ -271,7 +271,7 @@ tr:nth-child(odd){   font-size:12px;
     margin-top: .5rem;
     overflow-y: scroll;
     /* cambiar el estilo por defecto de la barra de scroll */
-    scrollbar-color: yellow darkred;
+    scrollbar-color: darkred #42075c;
     scrollbar-width: thin;
 
 }
@@ -282,7 +282,7 @@ tr:nth-child(odd){   font-size:12px;
     margin-top: .5rem;
     overflow-y: scroll;
     /* cambiar el estilo por defecto de la barra de scroll */
-    scrollbar-color: yellow darkred;
+    scrollbar-color: darkred #42075c ;
     scrollbar-width: thin;
 }
 /*fin de seccion*/
