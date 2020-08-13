@@ -169,15 +169,15 @@ body {
 .partidos th {
   text-align: left;
   padding: 8px;
-  background-color: blue;
+  background-color: #42075c;
 }
 .partidos td {
   text-align: left;
   padding: 8px;
 }
 
-tr:nth-child(even){background-color: magenta}
-tr:nth-child(odd){background-color: blue}
+tr:nth-child(even){background-color: rgba(170, 174, 193, .5)}
+tr:nth-child(odd){background-color: #07145a}
  
 
 .goles {
