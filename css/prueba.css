@@ -152,7 +152,8 @@ body {
 }
 /*fin de seccion*/
 /*inicio de estadisticas*/
-#estadisticas { background-color: #002561; }
+#estadisticas {   background-image: linear-gradient(#C0C0C0, orange);
+ }
 .partidos {
   float:left;
   width:55%;
