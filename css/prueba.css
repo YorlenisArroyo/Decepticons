@@ -164,7 +164,8 @@ body {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
-  border: 1px solid blue ;  
+  border: 3px solid blue ;
+  border-style: groove;
 }
 
 .partidos th {
@@ -189,10 +190,11 @@ tr:nth-child(odd){background-color: #07145a}
   
 }
 .goles table {
+  border-style: groove;
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
-  border: 1px solid black ;
+  border: 3px solid black ;
   float:left;
 }
 
@@ -200,14 +202,11 @@ tr:nth-child(odd){background-color: #07145a}
   text-align: left;
   padding: 8px;
   background-color: blue;
-  border: 1px solid black ;
 
 }
 .goles td {
   text-align: left;
   padding: 8px;
-  border: 1px solid black ;
-
 }
 
 .goles tr:nth-child(even){background-color: white}
@@ -223,12 +222,12 @@ tr:nth-child(odd){background-color: #07145a}
 }
 .asistencias table {
   border-style: groove;
+  border: 3px solid black ;
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
   height: 100%;
   float:left;
-  border: 1px solid black ;
 
 }
 
@@ -237,13 +236,11 @@ tr:nth-child(odd){background-color: #07145a}
   padding: 5px;
   text-size:2px;
   background-color: blue;
-  border: 1px solid black ;
 
 }
 .asistencias td {
   text-align: left;
   padding: 5px;
-  border: 1px solid black ;
 
 }
 
