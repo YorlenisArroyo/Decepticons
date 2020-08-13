@@ -253,7 +253,7 @@ tr:nth-child(odd){background-color: #07145a}
     position: relative;
     height: 500px;
     margin-top: .5rem;
-    overflow: auto;
+    overflow: scroll;
 }
 /*fin de seccion*/
 #noticias { background-color: #333; }
