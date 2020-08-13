@@ -164,8 +164,8 @@ body {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
-  border: 3px solid blue ;
-  border-style: groove;
+  border: 3px solid #07145a ;
+  border-style: outset;
 }
 
 .partidos th {
@@ -190,7 +190,7 @@ tr:nth-child(odd){background-color: #07145a}
   
 }
 .goles table {
-  border-style: groove;
+  border-style: outset;
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
@@ -221,7 +221,7 @@ tr:nth-child(odd){background-color: #07145a}
 
 }
 .asistencias table {
-  border-style: groove;
+  border-style: outset;
   border: 3px solid black ;
   border-collapse: collapse;
   border-spacing: 0;
