@@ -261,7 +261,7 @@ tr:nth-child(odd){  text-align: center;
 }
 .scrollspy-partido {
     position: relative;
-    height: 500px;
+    height: 300px;
     margin-top: .5rem;
     overflow: scroll;
 }
