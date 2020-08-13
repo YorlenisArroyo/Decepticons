@@ -266,7 +266,7 @@ tr:nth-child(odd){   font-size:12px;
 
 .scrollspy-gol-asis {
     position: relative;
-    height: 450px;
+    height: 350px;
     margin-top: .5rem;
     overflow-y: scroll;
     /* cambiar el estilo por defecto de la barra de scroll */
