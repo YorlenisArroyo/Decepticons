@@ -194,7 +194,7 @@ tr:nth-child(odd){   font-size:12px;
 .goles {
   float:left;
   width:20%;
-  margin-top:10px;
+  margin-top:25px;
   text-align:center;
   margin-left:10px;
 }
@@ -232,7 +232,7 @@ tr:nth-child(odd){   font-size:12px;
 .asistencias {
   float:left;
   width:20%;
-  margin-top:10px;
+  margin-top:25px;
   text-align:center;
   margin-left:10px;
 }
