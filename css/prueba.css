@@ -258,6 +258,10 @@ tr:nth-child(odd){  text-align: center;
     height: 400px;
     margin-top: .5rem;
     overflow: scroll;
+    /* cambiar el estilo por defecto de la barra de scroll */
+    scrollbar-color: yellow #800080;
+    scrollbar-width: 10px;
+}
 }
 .scrollspy-partido {
     position: relative;
