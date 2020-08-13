@@ -369,6 +369,8 @@ tr:nth-child(odd){background-color: #07145a}
   .goles, .asistencias {
     width:50%;
     overflow:scroll;
+    height: 500px;
+
   }
 }
 
