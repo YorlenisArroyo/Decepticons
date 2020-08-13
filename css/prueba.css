@@ -160,7 +160,7 @@ body {
   padding:0 10px;
   margin-top:20px;
   margin-left: 3%;
-
+  scrollbar-width: thin;
 }
 .partidos table {
   border-collapse: collapse;
@@ -196,7 +196,7 @@ tr:nth-child(odd){   font-size:12px;
   margin-top:10px;
   text-align:center;
   margin-left:10px;
- 
+  scrollbar-width: thin;
 }
 .goles table {
   border-style: outset;
@@ -235,7 +235,7 @@ tr:nth-child(odd){   font-size:12px;
   margin-top:10px;
   text-align:center;
   margin-left:10px;
-
+  scrollbar-width: thin;
 }
 .asistencias table {
   border-style: outset;
