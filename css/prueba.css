@@ -222,6 +222,7 @@ tr:nth-child(odd){background-color: #07145a}
 
 }
 .asistencias table {
+  border-style: groove;
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
