@@ -251,6 +251,8 @@ tr:nth-child(odd){background-color: #07145a}
 /*fin de seccion*/
 #noticias { background-color: #333; }
 #contacto { background-color: red; }
+#vivo { background-color: pink; }
+
 /*video de inicio*/
 .video video {
  float:left;
