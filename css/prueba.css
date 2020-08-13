@@ -277,7 +277,7 @@ tr:nth-child(odd){  text-align: center;
 /*video de inicio*/
 .video video {
  float:left;
- width: 67%;
+ width: 50%;
  margin-top:150px;
  margin-left: 8px;
  box-shadow: 0 0 20px #515dfe;
@@ -286,7 +286,7 @@ tr:nth-child(odd){  text-align: center;
 .resena {
   background-color:black;
   float:left;
-  width:29%;
+  width:40%;
   padding:16px;
   margin-top:150px;
   margin-left: 8px;
