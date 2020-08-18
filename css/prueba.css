@@ -111,7 +111,7 @@ body {
 /*inicio seccion equipo*/
 #equipo { background-color: #e34f26; }
 .row > .column {
-  padding: 0px 8px;
+  padding: 50px 8px;
   ma
 }
 
@@ -140,7 +140,7 @@ body {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(170, 174, 193);
+  background-color: rgba(170, 174, 193, .1);
 }
 
 /* Modal Content */
