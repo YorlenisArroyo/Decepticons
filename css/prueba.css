@@ -241,7 +241,7 @@ img.hover-shadow {
 /*fin de seccion*/
 
 /*inicio de estadisticas*/
-#estadisticas {  background: url("https://www.xtrafondos.com/wallpapers/resized/patron-de-hexagonos-en-lava-3d-3579.jpg?s=large") no-repeat center center;
+#estadisticas {  background: url("static/logo.png") no-repeat center center;
 	  background-size: cover;
 	/*background: linear-gradient(to bottom, #131313 0%, #1c1c1c 9%, #2c2c2c 16%, #2b2b2b 24%, #000000 34%, #111111 40%, #474747 57%, #666666 75%, #595959 88%, #4c4c4c 100%);*/
  }
