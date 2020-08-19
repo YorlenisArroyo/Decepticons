@@ -503,6 +503,14 @@ tr:nth-child(odd){   font-size:12px;
     flex: 30%;
     max-width: 30%;
   }
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 50%;
+  max-width: 50%;
+}
 }
 /*pie de la pagina*/
 .footer{
