@@ -500,8 +500,8 @@ tr:nth-child(odd){   font-size:12px;
 
 @media screen and (max-width: 800px) {
   .column {
-    flex: 20%;
-    max-width: 20%;
+    flex: 50%;
+    max-width: 50%;
   }
 }
 /*pie de la pagina*/
