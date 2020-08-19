@@ -502,6 +502,7 @@ tr:nth-child(odd){   font-size:12px;
   .column {
     flex: 30%;
     max-width: 30%;
+    margin-left: 20px;
   }
 }
 /*pie de la pagina*/
