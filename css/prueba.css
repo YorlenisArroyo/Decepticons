@@ -109,10 +109,11 @@ body {
 }
 
 /*inicio seccion equipo*/
-#equipo { background-color: #e34f26; }
+#equipo { 
+background: linear-gradient(to bottom, rgba(254,254,254,1) 0%, rgba(219,219,219,1) 42%, rgba(209,209,209,1) 46%, rgba(6,37,110,1) 100%);
+}
 .row > .column {
   padding: 10px 8px;
-  ma
 }
 
 .row:after {
