@@ -508,8 +508,8 @@ tr:nth-child(odd){   font-size:12px;
   background-color: #fefefe;
   margin: auto;
   padding: 0;
-  width: 50%;
-  max-width: 50%;
+  width: 90%;
+  max-width: 90%;
 }
 }
 /*pie de la pagina*/
