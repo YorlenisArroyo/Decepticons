@@ -347,26 +347,20 @@
     
   <!-- NOTICIAS-->
   <section id="noticias" class="container">
-    <div align="center">
-      <br><br>TITLE<br><br>
-      <div class="w3-content w3-display-container" style="max-width:700px">
-        <img class="mySlides w3-animate-right" src="https://i.stack.imgur.com/zg0pZ.png" style="width:100%">
-        <img class="mySlides w3-animate-left" src="https://i.stack.imgur.com/zg0pZ.png" style="width:100%">
-        <img class="mySlides w3-animate-right" src="https://i.stack.imgur.com/zg0pZ.png" style="width:100%">
-      <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-      <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-      <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-      </div>
-     </div>
-    </div>
   </section>
     
   <!-- CONTACTO-->
   <section id="contacto" class="container">
-    </section>
+    <form>
+       <label for="nombre">Nombre:</label>
+       <input id="nombre" name="nombre" placeholder="Nombre completo">
+       <label for="email">Email:</label>
+       <input id="email" name="email" type="email" placeholder="ejemplo@email.com">
+       <label for="mensaje">Mensaje:</label>
+       <textarea id="mensaje" name="mensaje" placeholder="Danos tu mensaje"></textarea>
+       <input id="submit" name="submit" type="submit" value="Enviar">
+    </form>
+   </section>
     
   <!-- EN VIVO-->
   <section id="vivo" class="container">
