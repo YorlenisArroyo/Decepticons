@@ -381,6 +381,7 @@ img.tituloresultado{
 width:50%; 
 height:auto;
 margin-top:90px;
+float:left;
 }
 /*fin de seccion*/
 #noticias { background-color: #333; }
