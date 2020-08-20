@@ -492,7 +492,7 @@ tr:nth-child(odd){   font-size:12px;
     height: 400px;
   }
   .goles, .asistencias {
-    width:50%;
+    width:20%;
     overflow:scroll;
     height: 200px;
 margin-top:0px;
