@@ -498,7 +498,8 @@ tr:nth-child(odd){   font-size:12px;
 margin-top:0px;
 
   }
-.tituloresultado{
+.tituloresultado img{
+width:70%;
 margin-top:0px;
  }
 }
