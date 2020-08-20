@@ -498,6 +498,9 @@ tr:nth-child(odd){   font-size:12px;
 margin-top:0px;
 
   }
+.tituloresultado{
+margin-top:0px;
+ }
 }
 
 @media screen and (max-width: 800px) {
