@@ -495,6 +495,7 @@ tr:nth-child(odd){   font-size:12px;
     width:50%;
     overflow:scroll;
     height: 200px;
+margin-top:0px;
 
   }
 }
