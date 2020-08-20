@@ -385,7 +385,9 @@ margin-top:90px;
 /*fin de seccion*/
 /*noticias*/
 #noticias { background-color: #333; }
-
+.mySlides {display:none;}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
 /*fin de seccion*/
 #contacto { background-color: red; }
 #vivo { background-color: pink; }
