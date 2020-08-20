@@ -385,11 +385,41 @@ margin-top:90px;
 /*fin de seccion*/
 /*noticias*/
 #noticias { background-color: #333; }
-.mySlides {display:none;}
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
 /*fin de seccion*/
 #contacto { background-color: red; }
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+}
+ 
+form {
+    margin:0 auto;
+    width:400px;
+}
+ 
+input, textarea {
+    width:380px;
+    height:27px;
+    background:#666666;
+    border:2px solid #f6f6f6;
+    padding:10px;
+    margin-top:5px;
+    font-size:10px;
+    color:#ffffff;
+}
+ 
+textarea {
+    height:150px;
+}
+ 
+#submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
 #vivo { background-color: pink; }
 
 /*video de inicio*/
