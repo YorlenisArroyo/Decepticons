@@ -498,7 +498,7 @@ tr:nth-child(odd){   font-size:12px;
 margin-top:0px;
 
   }
-.tituloresultado img{
+img .tituloresultado{
 width:70%;
 margin-top:0px;
  }
