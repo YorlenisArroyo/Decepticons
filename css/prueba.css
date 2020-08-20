@@ -378,10 +378,9 @@ tr:nth-child(odd){   font-size:12px;
     scrollbar-width: thin;
 }
 img.tituloresultado{
-width:50%; 
+width:60%; 
 height:auto;
 margin-top:90px;
-float:left;
 }
 /*fin de seccion*/
 #noticias { background-color: #333; }
