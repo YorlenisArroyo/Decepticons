@@ -714,7 +714,7 @@ margin-top:10px;
 .logo, .formularioa {
     width:100%;
     margin-left:0%;
-    margin-top: 10px;
+    margin-top: 40px;
   }
   .scrollspy-formulario {
     position: relative;
@@ -725,14 +725,14 @@ margin-top:10px;
     scrollbar-color: darkred #42075c ;
     scrollbar-width: thin;
 }
-	input{
-	width: 308px; 
+input{
+width: 308px; 
 }
 textarea{
-	width: 308px; 
+width: 308px; 
 }
 button{
-    width: 308px; 
+width: 308px; 
 }
 }
 
