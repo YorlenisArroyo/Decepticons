@@ -386,7 +386,7 @@ margin-top:90px;
 /*noticias*/
 #noticias { background-color: #333; }
 /*fin de seccion*/
-#contacto { background-color: red; }
+#contacto { background-color: white; }
 .scrollspy-formulario {
     position: relative;
     height: 500px;
@@ -565,7 +565,7 @@ h3{
 }
 
 
-p{
+p1{
 	font-size: 14px; 
 	color: orange; 
 }
