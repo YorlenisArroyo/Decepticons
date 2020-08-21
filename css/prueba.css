@@ -726,6 +726,18 @@ margin-top:10px;
     scrollbar-color: darkred #42075c ;
     scrollbar-width: thin;
 }
+	input{
+	background-color: #fbfbfb; 
+	width: 308px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: darkred; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+}
 }
 
 @media screen and (max-width: 800px) {
