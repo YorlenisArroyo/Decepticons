@@ -610,7 +610,6 @@ p1{
   margin-top:180px;
   margin-left: 8px;
   text-align:center;
-
 }
 /*media para el funcionamiendo del responsive*/
 @media only screen and (max-width: 620px) {
@@ -730,10 +729,10 @@ margin-top:10px;
 	width: 308px; 
 }
 textarea{
-	width: 305px; 
+	width: 308px; 
 }
 button{
-    width: 400px; 
+    width: 308px; 
 }
 }
 
