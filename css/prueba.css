@@ -387,18 +387,36 @@ margin-top:90px;
 #noticias { background-color: #333; }
 /*fin de seccion*/
 #contacto { background-color: red; }
-.contact_form{	
-	width: 460px; 
-	height: auto;
-	margin: 80px auto;
-	border-radius: 10px;  
-	padding-top: 30px;
-	padding-bottom: 20px;  
-  background-color: grey; 
-  padding-left: 30px; 
+.scrollspy-formulario {
+    position: relative;
+    height: 500px;
+    margin-top: .5rem;
+    overflow-y: scroll;
+    /* cambiar el estilo por defecto de la barra de scroll */
+    scrollbar-color: darkred #42075c ;
+    scrollbar-width: thin;
 }
+.logo img{
+  float:left;
+  width:40%;
+  margin-left:5%;
 
 
+}
+.formularioa {
+  background-color:#e5e5e5;
+  float:left;
+  width:40%;
+  height
+    margin: 0px auto;
+	border-radius: 10px;  
+	padding-top: 10px;
+	padding-bottom: 10px;  
+  background-color: #4c4c4e; 
+  padding-left: 20px;
+  margin-left:10%;
+
+}
 input{
 	background-color: #fbfbfb; 
 	width: 408px; 
@@ -406,7 +424,7 @@ input{
 	border-radius: 5px;  
 	border-style: solid; 
 	border-width: 1px; 
-	border-color: #ab4493; 
+	border-color: darkred; 
 	margin-top: 10px;  
 	padding-left: 10px;
   margin-bottom: 20px; 
@@ -416,7 +434,7 @@ input{
 textarea{
   background-color: #fbfbfb; 
 	width: 405px; 
-	height: 150px; 
+	height: 120px; 
 	border-radius: 5px;  
 	border-style: solid; 
 	border-width: 1px; 
@@ -433,30 +451,94 @@ label{
 	float: center; 	
 }
 
-
 button{
-	height: 45px; 
-	padding-left: 5px;
-	padding-right: 5px; 	
-	margin-bottom: 20px; 
-	margin-top: 10px; 	
-	text-transform: uppercase;
-	background-color: #ab4493; 
-	border-color: #ab4493; 
-	border-style: solid; 
-	border-radius: 10px;	
-	width: 420px;   
-  cursor: pointer;
+ position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: darkred;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    background-color: transparent;
+    border-style: solid; 
+	border-width: 1px; 
+	border-color: transparent; 
+    width: 420px; 
+    margin-left:10px;
 }
-
-
-button p{
-	color: #fff; 
+button:hover
+{
+    color: #255784;
+    background: white;
+    box-shadow: 0 0 10px #0000ff, 0 0 40px #0000ff, 0 0 80px #0000ff;
+    transition-delay: 1s;
 }
-
+button span
+{
+    position: absolute;
+    display: block;
+}
+button span:nth-child(1)
+{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#0000ff);
+}
+button:hover span:nth-child(1)
+{
+    left: 100%;
+    transition: 1s;
+} 
+button span:nth-child(2)
+{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#0000ff);
+}
+button:hover span:nth-child(2)
+{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+button span:nth-child(3)
+{
+    top: -100℅;
+    right: 0%;
+    width: 2px%;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#0000ff);
+}
+button:hover span:nth-child(3)
+{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+button span:nth-child(4)
+{
+    bottom: -100℅;
+    left: 0%;
+    width: 2px%;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#0000ff);
+}
+button:hover span:nth-child(4)
+{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
 
 span{
-	color: #ab4493; 
+	color: orange; 
 }
 
 
@@ -469,21 +551,23 @@ span{
 h1{
 	font-size: 39px;  
 	text-align: letf; 
-	padding-bottom: 20px; 
-	color: #ab4493;
-}
+	padding-bottom: 10px; 
+background: -webkit-linear-gradient(darkred, orange);
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
 
 
 h3{
 	font-size: 16px; 
-	padding-bottom: 30px;
+	padding-bottom: 10px;
 	color: #0e0e0e;   
 }
 
 
 p{
 	font-size: 14px; 
-	color: #0e0e0e; 
+	color: orange; 
 }
 
 
@@ -629,6 +713,19 @@ img.tituloresultado{
 width:70%;
 margin-top:10px;
  }
+.logo, .formularioa {
+    width:100%;
+    margin-left:0%;
+  }
+  .scrollspy-formulario {
+    position: relative;
+    height: 270px;
+    margin-top: .5rem;
+    overflow-y: scroll;
+    /* cambiar el estilo por defecto de la barra de scroll */
+    scrollbar-color: darkred #42075c ;
+    scrollbar-width: thin;
+}
 }
 
 @media screen and (max-width: 800px) {
