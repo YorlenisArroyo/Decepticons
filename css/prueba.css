@@ -407,7 +407,6 @@ margin-top:90px;
   float:left;
   width:40%;
   height
-    margin-top:10%;
     margin: 0px auto;
 	border-radius: 10px;  
 	padding-top: 10px;
@@ -415,7 +414,7 @@ margin-top:90px;
   background-color: #4c4c4e; 
   padding-left: 20px;
   margin-left:10%;
-
+   margin-top:10%;
 }
 input{
 	background-color: #fbfbfb; 
