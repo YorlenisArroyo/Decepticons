@@ -738,6 +738,19 @@ margin-top:10px;
 	padding-left: 10px;
   margin-bottom: 20px; 
 }
+textarea{
+  background-color: #fbfbfb; 
+	width: 305px; 
+	height: 120px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #ab4493; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
 }
 
 @media screen and (max-width: 800px) {
