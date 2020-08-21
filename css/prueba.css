@@ -550,7 +550,8 @@ span{
 h1{
 	font-size: 39px;  
 	text-align: letf; 
-	padding-bottom: 10px; 
+	padding-bottom: 10px;
+	font-weight: bold;
 background: -webkit-linear-gradient(darkred, orange);
 -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
