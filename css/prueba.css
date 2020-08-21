@@ -714,11 +714,11 @@ margin-top:10px;
 .logo, .formularioa {
     width:100%;
     margin-left:0%;
-    margin-top: 40px;
+    margin-top: 50px;
   }
   .scrollspy-formulario {
     position: relative;
-    height: 270px;
+    height: 280px;
     margin-top: .5rem;
     overflow-y: scroll;
     /* cambiar el estilo por defecto de la barra de scroll */
