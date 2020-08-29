@@ -388,7 +388,7 @@ margin-top:90px;
 #contacto { background-color: white; }
 .scrollspy-formulario {
     position: relative;
-    height: auto;
+    height: 500px;
     margin-top: .5rem;
     overflow-y: scroll;
     /* cambiar el estilo por defecto de la barra de scroll */
