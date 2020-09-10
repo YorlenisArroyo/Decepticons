@@ -384,7 +384,11 @@ margin-top:90px;
 /*fin de seccion*/
 /*noticias*/
 #noticias { background-color: #333; }
-
+.cartas{
+width:40%; 
+height:100%;
+margin-top:500px;
+}
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 figure.noticia {
