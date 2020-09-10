@@ -460,12 +460,12 @@ figure.noticia .title div:after {
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
 }
-figure.noticia h2,
+figure.noticia h3,
 figure.noticia h4 {
   margin: 0;
   text-transform: uppercase;
 }
-figure.noticia h2 {
+figure.noticia h3 {
   font-weight: 400;
 }
 figure.noticia h4 {
