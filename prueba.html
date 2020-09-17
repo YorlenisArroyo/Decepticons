@@ -412,14 +412,27 @@
   <!-- EN VIVO-->
   <section id="vivo" class="container">
 <div style="position: absolute; top: 100px; left:10%;">
-   <iframe
+   <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+<div id="SamplePlayerDivID"></div>
+<script type="text/javascript">
+  var options = {
+    width: 854,
+    height: 480,
+    channel: "decepticonscrew",
+    // only needed if your site is also embedded on embed.example.com and othersite.example.com 
+    parent: ["decepticons.cf"]
+  };
+  var player = new Twitch.Player("SamplePlayerDivID", options);
+  player.setVolume(0.5);
+</script>
+	<!--<iframe
     src="https://player.twitch.tv/?channel=decepticonscrew&parent=decepticons.cf&muted=true"
     height="600"
     width="1160"
     frameborder="0"
     scrolling="no"
     allowfullscreen="true">
-   </iframe>
+   </iframe>-->
  </div>
   </section>
      <!-- FOOTER -->
