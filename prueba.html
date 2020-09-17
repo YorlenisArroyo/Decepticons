@@ -412,7 +412,19 @@
   <!-- EN VIVO-->
   <section id="vivo" class="container">
 <div style="position: absolute; top: 100px; left:10%;">
-   <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+	    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "xQcOW",
+        // only needed if your site is also embedded on embed.example.com and othersite.example.com 
+        parent: ["decepticons.cf"]
+      });
+    </script>
+   <!--<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
 <div id="SamplePlayerDivID"></div>
 <script type="text/javascript">
   var options = {
