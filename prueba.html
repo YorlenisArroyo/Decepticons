@@ -411,7 +411,8 @@
     
   <!-- EN VIVO-->
   <section id="vivo" class="container">
-<div style="position: absolute; top: 100px; left:10%;">
+<img src="https://www.unitel.tv/wp-content/themes/unitel_v2/img_web/home/vivo20200218a.gif" width="100%" height="auto">
+<div style="position: absolute; top: 300px; left:20%;">
    <div id="twitch-embed"></div>
    <script src="https://embed.twitch.tv/embed/v1.js"></script>
     <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
@@ -499,20 +500,7 @@ function showSlides(n) {
 /*noticia*/
 
 /*formulario*/
-const processForm = form => {
-  const data = new FormData(form)
-  data.append('contacto');
-  fetch('/', {
-    method: 'POST',
-    body: data,
-  })
-  .then(() => {
-    form.innerHTML = `<div class="form--success">Gracias! Nos pondremos en contacto.</div>`;
-  })
-  .catch(error => {
-    form.innerHTML = `<div class="form--error">Error: ${error}</div>`;
-  })
-}
+
     </script>
 
   </body>
