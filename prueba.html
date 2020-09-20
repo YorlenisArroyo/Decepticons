@@ -498,7 +498,21 @@ function showSlides(n) {
 	    
 /*noticia*/
 
-
+/*formulario*/
+const processForm = form => {
+  const data = new FormData(form)
+  data.append('contacto', 'newsletter');
+  fetch('/', {
+    method: 'POST',
+    body: data,
+  })
+  .then(() => {
+    form.innerHTML = `<div class="form--success">Gracias! Nos pondremos en contacto.</div>`;
+  })
+  .catch(error => {
+    form.innerHTML = `<div class="form--error">Error: ${error}</div>`;
+  })
+}
     </script>
 
   </body>
