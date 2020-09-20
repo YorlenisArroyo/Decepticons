@@ -501,7 +501,7 @@ function showSlides(n) {
 /*formulario*/
 const processForm = form => {
   const data = new FormData(form)
-  data.append('contacto', 'newsletter');
+  data.append('contacto');
   fetch('/', {
     method: 'POST',
     body: data,
