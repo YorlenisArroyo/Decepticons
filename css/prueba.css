@@ -12,9 +12,35 @@ z-index: 5;
 width: 100%;
 height: 6%;
 }
-.header ul{
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+a {
+  color:#009688;
+}
+
+#l2{
+  float:left
+}
+
+.social-icons li {
+  font-size: 1.2em;
+  padding: 0.5em;
+}
+
+ li{
+  display:list-item;
+  xlist-style:none;
+}
+
+#l2 li{
   display: inline;
-  padding-right: 0.5em;}
+}
+
+#l2{
+  margin-left:50px;
+  margin-top:100px;
+}
+/*fin de redes y header*/
 /*margen y estilo de la pagina*/
 * {
   margin: 0;
