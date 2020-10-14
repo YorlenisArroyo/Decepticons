@@ -791,7 +791,7 @@ width: 308px;
 	background: #444;
 	color:#fff;
 	text-align: center;
-	padding: 10px;
+	padding: 25px;
 }
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
@@ -818,7 +818,7 @@ a {
 }
 
 #l3{
-  margin-left:600px;
+  margin-left:1000px;
   margin-top:0px;
 }
 /*fin de redes*/
