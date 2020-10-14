@@ -793,9 +793,35 @@ width: 308px;
 	text-align: center;
 	padding: 10px;
 }
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
+a {
+  color:white;
+}
 
-/*botones sociales*/
+#l3{
+  float:left
+}
+
+.social-icons li {
+  font-size: 1.9em;
+  padding: 0.5em;
+}
+
+ li{
+  display:list-item;
+  xlist-style:none;
+}
+
+#l3 li{
+  display: inline;
+}
+
+#l3{
+  margin-left:1100px;
+  margin-top:1100px;
+}
+/*fin de redes*/
 
 
 /*fin de botones sociales*/
