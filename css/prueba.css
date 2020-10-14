@@ -12,6 +12,9 @@ z-index: 5;
 width: 100%;
 height: 6%;
 }
+.header ul{
+  display: inline;
+  padding-right: 0.5em;}
 /*margen y estilo de la pagina*/
 * {
   margin: 0;
@@ -767,6 +770,7 @@ width: 308px;
 
 
 /*botones sociales*/
+
 
 /*fin de botones sociales*/
 
