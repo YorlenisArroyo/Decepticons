@@ -15,15 +15,6 @@ height: 6%;
 .header ul{
   display: inline;
   padding-right: 0.5em;}
-
-.header ul img{
-  display: inline;
-  padding-right: 0.5em;
-  width:10;
-  position: fixed; 
-  top: 1%; 
-  left:2%; 
-  z-index:20;"
 /*margen y estilo de la pagina*/
 * {
   margin: 0;
