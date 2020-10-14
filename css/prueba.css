@@ -15,7 +15,7 @@ height: 6%;
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 a {
-  color:#009688;
+  color:white;
 }
 
 #l2{
@@ -23,7 +23,7 @@ a {
 }
 
 .social-icons li {
-  font-size: 1.2em;
+  font-size: 1.5em;
   padding: 0.5em;
 }
 
@@ -37,8 +37,8 @@ a {
 }
 
 #l2{
-  margin-left:50px;
-  margin-top:100px;
+  margin-left:1100px;
+  margin-top:1px;
 }
 /*fin de redes y header*/
 /*margen y estilo de la pagina*/
