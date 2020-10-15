@@ -787,7 +787,7 @@ width: 308px;
 }
 }
 /*pie de la pagina*/
-.footer{
+.container-fluid{
 	background: #444;
 	color:#fff;
 	text-align: center;
@@ -804,7 +804,7 @@ a {
 }
 
 .social li {
-  font-size: 1.0em;
+  font-size: 1.9em;
   padding: 0.5em;
 }
 
@@ -818,8 +818,8 @@ a {
 }
 
 #l3{
-  margin-left:1000px;
-  margin-top:0px;
+  margin-left:1100px;
+  margin-top:-10px;
 }
 /*fin de redes*/
 
