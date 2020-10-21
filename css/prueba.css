@@ -140,7 +140,7 @@ body {
 /*inicio seccion equipo*/
 #equipo { 
 background: linear-gradient(to bottom, rgba(70,75,128,1) 0%, rgba(3,4,28,1) 58%, rgba(3,4,28,1) 100%);}
-.main {
+#main {
     overflow-x:scroll;
     width:100%;
 }
