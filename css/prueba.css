@@ -138,10 +138,26 @@ body {
 }
 
 /*inicio seccion equipo*/
-#equipo { 
-background: linear-gradient(to bottom, rgba(70,75,128,1) 0%, rgba(3,4,28,1) 58%, rgba(3,4,28,1) 100%);}
+.main {
+    overflow-x:scroll;
+    width:100%;
+}
+#horizontal-scroll {
+    display : inline-flex;
+    padding:1px;
+}
+.item {
+    min-width:300px;
+    min-height:13px;
+    padding: 5px;
+}  
+.item img{
+  max-width:100%;
+  mmax-height:100%;
+}
+
 .row > .column {
-  padding: 10px 8px;
+  padding: 0 8px;
 }
 
 .row:after {
@@ -152,39 +168,37 @@ background: linear-gradient(to bottom, rgba(70,75,128,1) 0%, rgba(3,4,28,1) 58%,
 
 .column {
   float: left;
-  width: 16.5%;
+  width: 100%;
 }
-.column img {
-  margin-top: 20px;
-  vertical-align: middle;
-  width: 100%;}
+
 /* The Modal (background) */
 .modal {
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 10px;
+  padding-top: 100px;
   left: 0;
-  top: 15%;
+  top: 0;
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, .10);
+ background-color: rgba(0, 0, 0, .5);
 }
 
 /* Modal Content */
 .modal-content {
   position: relative;
+  top:-15%;
   background-color: #fefefe;
   margin: auto;
   padding: 0;
-  width: 40%;
-  max-width: 50%;
+  width: 32%;
+  max-width: 1200px;
 }
 
 /* The Close Button */
 .close {
-  color: black;
+  color: white;
   position: absolute;
   top: 10px;
   right: 25px;
@@ -216,7 +230,7 @@ background: linear-gradient(to bottom, rgba(70,75,128,1) 0%, rgba(3,4,28,1) 58%,
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: blue;
+  color: orange;
   font-weight: bold;
   font-size: 20px;
   transition: 0.6s ease;
@@ -234,16 +248,18 @@ background: linear-gradient(to bottom, rgba(70,75,128,1) 0%, rgba(3,4,28,1) 58%,
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
+  color: darkorange;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  left:20px;
+  font-weight: bold;
 }
 
 img {
@@ -266,6 +282,9 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+#equipo { 
+background: linear-gradient(to bottom, rgba(70,75,128,1) 0%, rgba(3,4,28,1) 58%, rgba(3,4,28,1) 100%);}
+
 
 /*fin de seccion*/
 
