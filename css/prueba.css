@@ -139,7 +139,7 @@ body {
 
 /*inicio seccion equipo*/
 #equipo { 
-background: url(static/fondoequipo.jpg") no-repeat center center;}
+background: url("static/fondoequipo.jpg") no-repeat center center;}
 
 #main {
     overflow-x:scroll;
