@@ -150,7 +150,7 @@ background: linear-gradient(to bottom, rgba(70,75,128,1) 0%, rgba(3,4,28,1) 58%,
     padding:1px;
 }
 .item {
-    min-width:300px;
+    min-width:320px;
     min-height:13px;
     padding: 5px;
 }  
@@ -160,7 +160,7 @@ background: linear-gradient(to bottom, rgba(70,75,128,1) 0%, rgba(3,4,28,1) 58%,
 }
 
 .row > .column {
-  padding: 0 8px;
+  padding: 0 20px;
 }
 
 .row:after {
