@@ -526,7 +526,7 @@ button{
 }
 button:hover
 {
-    color: #255784;
+    color: #ff7c00;
     background: rgba(0, 0, 255, .5);
     box-shadow: 0 0 10px #ff7c00, 0 0 40px #ff7c00, 0 0 80px #ff7c00;
     transition-delay: 1s;
