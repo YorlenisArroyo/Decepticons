@@ -256,7 +256,7 @@ background-size: cover;
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 139, 0, 0.8);
 }
 
 /* Number text (1/3 etc) */
