@@ -648,7 +648,7 @@ p1{
 #vivo { background: linear-gradient(to bottom, rgba(252,210,133,1) 0%, rgba(255,55,0,1) 100%); }
 
 /*video de inicio*/
-.video .carousel slide{
+.video #carouselExampleIndicators{
  float:left;
  width: 50%;
  margin-top:180px;
