@@ -139,7 +139,7 @@ background-size: cover;
 
 /*inicio seccion equipo*/
 #equipo { 
-background: url("/static/fondoequipo.jpg") no-repeat center center;
+background: url("/static/fondo.jpg") no-repeat center center;
 background-size: cover;
 }
 
@@ -295,7 +295,7 @@ img.hover-shadow {
 
 /*inicio de estadisticas*/
 #estadisticas {  
-	background: url("/static/fondoequipo.jpg") no-repeat center center;
+	background: url("/static/fondo.jpg") no-repeat center center;
 	background-size: cover;
  }
 .partidos {
@@ -441,7 +441,7 @@ margin-top:90px;
 /*fin de seccion*/
 
 #contacto { 
-	background: url("/static/fondoequipo.jpg") no-repeat center center;
+	background: url("/static/fondo.jpg") no-repeat center center;
 	background-size: cover;
 }
 .scrollspy-formulario {
@@ -655,7 +655,7 @@ p1{
 	border: 1px solid #97d848;
 }
 #vivo { 
-	background: url("/static/fondoequipo.jpg") no-repeat center center;
+	background: url("/static/fondo.jpg") no-repeat center center;
 	background-size: cover; 
 }
 
