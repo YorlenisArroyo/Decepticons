@@ -3,20 +3,25 @@
   <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Decepticons Crew</title>
     <link rel="shortcut icon" href="static/favicon.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap-flex.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/prueba.css">
     <!-- barra -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
-
     <!-- HEADER -->
     <div class="header">
-      <p>My supercool header</p> 
+    <!--iconos-->
+	<ul class="social-icons" id="l2">
+	  <li><a href="https://www.youtube.com/channel/UCnnvP82iJyR3T7pKbwIJIFw/featured" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+	  <li><a href="https://www.instagram.com/decepticonscrew507/" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+	  <li><a href="https://www.twitch.tv/decepticonscrew" class="social-icon"> <i class="fa fa-twitch"></i></a></li>
+	  <li><a href="https://decepticons.cf" class="social-icon"> <i class="fa fa-globe"></i></a></li>
+	</ul>
     </div>
      <!--FIN HEADER -->    
     <!-- barra -->
@@ -24,7 +29,7 @@
     <nav class="navbar">
     <ul>
       <li><a href="#equipo">Equipo</a></li>
-      <li><a href="#estadisticas">Estadisticas</a></li>
+      <li><a href="#estadisticas">Estadísticas</a></li>
       <li><a href="#noticias">Noticias</a></li>
       <li><a href="#contacto">Contacto</a></li>
       <li><a href="#vivo">En Vivo</a></li>
@@ -38,10 +43,39 @@
      
      <!-- INICIO-->
   <header class="intro">
-    <div class="video" margin="20">
-      <video width="560"  controls autoplay>
+   <div class="video" margin="20">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active"data-interval="15000">
+      <video width="100%" height="auto" controls autoplay>
         <source src="static/preview.mp4" type="video/mp4">
        </video>    
+    </div>
+    <div class="carousel-item">
+      <video width="100%" height="auto" controls>
+        <source src="static/preview.mp4" type="video/mp4">
+       </video>    </div>
+    <div class="carousel-item">
+      <video width="100%" height="auto" controls>
+        <source src="static/preview.mp4" type="video/mp4">
+
+<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+       </video>
+    </div>
+  </div>
+</div>
     </div>
     
     <div class="resena">
@@ -57,115 +91,193 @@
     
   <!-- EQUIPO-->
   <section id="equipo" class="container">
-  <img src="static/tituloresultado.png" width="50%" height="auto" style="margin-top:90px">
-<div class="row">
+      <img src="/static/equipo.png" width="20%" height="auto" style="margin-top:140px">	  
+    <section id="main">
+      <aside id="horizontal-scroll">
+    	<article class="item">
+        <div class="row">
+        <div class="column">
+        <img src="static/ficha1.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>  	  
+    	</article>
+      <article class="item">
+         <div class="row">
+         <div class="column">
+         <img src="static/ficha2.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+      </article>
+      <article class="item">
+       <div class="row">
+        <div class="column">
+          <img src="static/ficha3.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+      </article>
+      <article class="item">
+        <div class="row">
+        <div class="column">
+        <img src="static/ficha4.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+      </article>
+      <article class="item">
+        <div class="row">
+        <div class="column">
+        <img src="static/ficha5.png" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+      </article>
+      <article class="item">
+        <div class="row">
+        <div class="column">
+        <img src="static/ficha6.png" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+      </article>
+      <article class="item">
+        <div class="row">
+        <div class="column">
+        <img src="static/ficha7.png" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+      </article>
+      <article class="item">
+        <div class="row">
+        <div class="column">
+        <img src="static/ficha8.png" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+      </article>
+      <article class="item">
+        <div class="row">
+        <div class="column">
+        <img src="static/ficha9.png" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+      </article>
+      <article class="item">
+        <div class="row">
+        <div class="column">
+        <img src="static/ficha10.png" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+      </article>
+      <article class="item">
+        <div class="row">
+        <div class="column">
+        <img src="static/ficha11.png" style="width:100%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+      </article>
+      <article class="item">
+        <div class="row">
+        <div class="column">
+        <img src="static/ficha12.png" style="width:100%" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+      </article>
+      <article class="item">
+        <div class="row">
+        <div class="column">
+        <img src="static/ficha13.png" style="width:100%" onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
+      </article>   
+      <article class="item">
+        <div class="row">
+        <div class="column">
+        <img src="static/ficha14.png" style="width:100%" onclick="openModal();currentSlide(14)" class="hover-shadow cursor">
+      </article>		
+      <article class="item">
+        <div class="row">
+        <div class="column">
+        <img src="static/ficha15.png" style="width:100%" onclick="openModal();currentSlide(15)" class="hover-shadow cursor">
+      </article>
+      <article class="item">
+        <div class="row">
+        <div class="column">
+        <img src="static/ficha16.png" style="width:100%" onclick="openModal();currentSlide(16)" class="hover-shadow cursor">
+      </article>		
+      <article class="item">
+        <div class="row">
+        <div class="column">
+        <img src="static/ficha17.png" style="width:100%" onclick="openModal();currentSlide(17)" class="hover-shadow cursor">
+      </article>
+		
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
 
-  <div class="column">
-    <img src="https://www.cuencanews.es/fotos/1/Cartel_5.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-    <img src="https://www.cuencanews.es/fotos/1/Cartel_5.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-  </div>
-  
-  <div class="column">
-    <img src="https://www.cuencanews.es/fotos/1/Cartel_5.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-    <img src="https://www.cuencanews.es/fotos/1/Cartel_5.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-  </div>
-  
-  <div class="column">
-    <img src="https://www.cuencanews.es/fotos/1/Cartel_5.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-    <img src="https://www.cuencanews.es/fotos/1/Cartel_5.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-  </div>
-  
-  <div class="column">
-    <img src="https://www.cuencanews.es/fotos/1/Cartel_5.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-    <img src="https://www.cuencanews.es/fotos/1/Cartel_5.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-</div>
+          <div class="mySlides">
+            <div class="numbertext">1 / 17</div>
+            <img src="static/ficha1.png" style="width:100%">
+          </div>
 
-  <div class="column">
-    <img src="https://www.cuencanews.es/fotos/1/Cartel_5.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-    <img src="https://www.cuencanews.es/fotos/1/Cartel_5.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-</div>
+          <div class="mySlides">
+            <div class="numbertext">2 / 17</div>
+            <img src="static/ficha2.png" style="width:100%">
+          </div>
 
-  <div class="column">
-    <img src="https://www.cuencanews.es/fotos/1/Cartel_5.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-    <img src="https://www.cuencanews.es/fotos/1/Cartel_5.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-</div>
-</div>
+          <div class="mySlides">
+            <div class="numbertext">3 / 17</div>
+            <img src="static/ficha3.png" style="width:100%">
+          </div>
 
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
+          <div class="mySlides">
+            <div class="numbertext">4 / 17</div>
+            <img src="static/ficha4.png" style="width:100%">
+          </div>
 
-    <div class="mySlides">
-      <div class="numbertext">1 / 12</div>
-      <img src="https://www.cuencanews.es/fotos/1/Cartel_5.jpg" style="width:100%">
-    </div>
+          <div class="mySlides">
+            <div class="numbertext">5 / 17</div>
+            <img src="static/ficha5.png" style="width:100%">
+          </div>
 
-    <div class="mySlides">
-      <div class="numbertext">2 / 12</div>
-      <img src="https://www.cuencanews.es/fotos/1/Cartel_5.jpg" style="width:100%">
-    </div>
+          <div class="mySlides">
+            <div class="numbertext">6 / 17</div>
+            <img src="static/ficha6.png" style="width:100%">
+          </div>
 
-    <div class="mySlides">
-      <div class="numbertext">3 / 12</div>
-      <img src="https://www.cuencanews.es/fotos/1/Cartel_5.jpg" style="width:100%">
-    </div>
-    
-    <div class="mySlides">
-      <div class="numbertext">4 / 12</div>
-      <img src="https://www.cuencanews.es/fotos/1/Cartel_5.jpg" style="width:100%">
-    </div>
+          <div class="mySlides">
+            <div class="numbertext">7 / 17</div>
+            <img src="static/ficha7.png" style="width:100%">
+          </div>
 
-    <div class="mySlides">
-      <div class="numbertext">5 / 12</div>
-      <img src="https://www.cuencanews.es/fotos/1/Cartel_5.jpg" style="width:100%">
-    </div>
-    
-    <div class="mySlides">
-      <div class="numbertext">6 / 12</div>
-      <img src="https://www.cuencanews.es/fotos/1/Cartel_5.jpg" style="width:100%">
-    </div>
-    
-    <div class="mySlides">
-      <div class="numbertext">7 / 12</div>
-      <img src="https://www.cuencanews.es/fotos/1/Cartel_5.jpg" style="width:100%">
-    </div>
+          <div class="mySlides">
+            <div class="numbertext">8 / 17</div>
+            <img src="static/ficha8.png" style="width:100%">
+          </div>
 
-    <div class="mySlides">
-      <div class="numbertext">8 / 12</div>
-      <img src="https://www.cuencanews.es/fotos/1/Cartel_5.jpg" style="width:100%">
-    </div>
+          <div class="mySlides">
+            <div class="numbertext">9 / 17</div>
+            <img src="static/ficha9.png" style="width:100%">
+          </div>
 
-    <div class="mySlides">
-      <div class="numbertext">9 / 12</div>
-      <img src="https://www.cuencanews.es/fotos/1/Cartel_5.jpg" style="width:100%">
-    </div>
-    
-    <div class="mySlides">
-      <div class="numbertext">10 / 12</div>
-      <img src="https://www.cuencanews.es/fotos/1/Cartel_5.jpg" style="width:100%">
-    </div>
+          <div class="mySlides">
+            <div class="numbertext">10 / 17</div>
+            <img src="static/ficha10.png" style="width:100%">
+          </div>
 
-    <div class="mySlides">
-      <div class="numbertext">11 / 12</div>
-      <img src="https://www.cuencanews.es/fotos/1/Cartel_5.jpg" style="width:100%">
-    </div>
-    
-    <div class="mySlides">
-      <div class="numbertext">12 / 12</div>
-      <img src="https://www.cuencanews.es/fotos/1/Cartel_5.jpg" style="width:100%">
-    </div>
-    
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <div class="mySlides">
+            <div class="numbertext">11 / 17</div>
+            <img src="static/ficha11.png" style="width:100%">
+          </div>
 
-    </div>
-</div>
+          <div class="mySlides">
+            <div class="numbertext">12 / 17</div>
+            <img src="static/ficha12.png" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">13 / 17</div>
+            <img src="static/ficha13.png" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">14 / 17</div>
+            <img src="static/ficha14.png" style="width:100%">
+          </div>    
+          <div class="mySlides">
+            <div class="numbertext">15 / 17</div>
+            <img src="static/ficha15.png" style="width:100%">
+          </div>	
+          <div class="mySlides">
+            <div class="numbertext">16 / 17</div>
+            <img src="static/ficha16.png" style="width:100%">
+          </div>	
+          <div class="mySlides">
+            <div class="numbertext">17 / 17</div>
+            <img src="static/ficha17.png" style="width:100%">
+          </div>		
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+      </div>             
+	</aside>
     </section>
+</section>
+
     
     <!-- ESTADISTICAS-->
   <section id="estadisticas" class="container">
-  <img class="tituloresultado" src="static/tituloresultado.png">
+  <!--<img class="tituloresultado" src="static/tituloresultado.png">-->
   <div class="partidos">
+   <img class="tituloresultado" src="static/tituloresultado.png">
    <div class="scrollspy-partido" data-spy="scroll">
       <table>
         <tr>
@@ -412,7 +524,7 @@
     
   <!-- EN VIVO-->
   <section id="vivo" class="container">
-<img src="https://www.unitel.tv/wp-content/themes/unitel_v2/img_web/home/vivo20200218a.gif" width="20%" height="auto style="margin-top:100px">
+<img src="/static/emvivo.gif"" width="20%" height="auto" style="margin-top:90px">
 <div style="position: absolute; top: 150px; left:20%;">
    <div id="twitch-embed"></div>
    <script src="https://embed.twitch.tv/embed/v1.js"></script>
@@ -430,7 +542,12 @@
   </section>
      <!-- FOOTER -->
     <div class="container-fluid footer">
-      <div><h6>Decepticons</a></h6></div>
+	<ul class="social" id="l3">
+	  <li><a href="https://www.youtube.com/channel/UCnnvP82iJyR3T7pKbwIJIFw/featured" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+	  <li><a href="https://www.instagram.com/decepticonscrew507/" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+	  <li><a href="https://www.twitch.tv/decepticonscrew" class="social-icon"> <i class="fa fa-twitch"></i></a></li>
+	  <li><a href="https://decepticons.cf" class="social-icon"> <i class="fa fa-globe"></i></a></li>
+	</ul>
     </div>
     <!-- FIN FOOTER -->
 
@@ -461,10 +578,12 @@
       
       /*Equipo*/
       
-      function openModal() {
+// Open the Modal
+function openModal() {
   document.getElementById("myModal").style.display = "block";
 }
 
+// Close the Modal
 function closeModal() {
   document.getElementById("myModal").style.display = "none";
 }
@@ -472,10 +591,12 @@ function closeModal() {
 var slideIndex = 1;
 showSlides(slideIndex);
 
+// Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
+// Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
@@ -488,10 +609,10 @@ function showSlides(n) {
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+    slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
+    dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
